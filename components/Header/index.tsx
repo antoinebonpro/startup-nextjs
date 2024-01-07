@@ -56,20 +56,26 @@ const Header = () => {
                   sticky ? "py-5 lg:py-2" : "py-8"
                 } `}
               >
+                 <div style={{
+            width: sticky ? '50px' : '140px', // smaller width when sticky
+            height: sticky ? '20px' : '30px', // smaller height when sticky
+            transition: 'all 0.3s ease-in-out' // smooth transition
+          }}>
                 <Image
-                  src="/images/logo/logo-2.svg"
+                  src="/images/logo/logo-green.png"
                   alt="logo"
-                  width={140}
-                  height={30}
+                  width={140} 
+                  height={30} 
                   className="w-full dark:hidden"
                 />
                 <Image
-                  src="/images/logo/logo.svg"
+                  src="/images/logo/logo-green.png"
                   alt="logo"
-                  width={140}
-                  height={30}
+                  width={140}  
+                  height={30} 
                   className="hidden w-full dark:block"
                 />
+                </div>
               </Link>
             </div>
             <div className="flex w-full items-center justify-between px-4">

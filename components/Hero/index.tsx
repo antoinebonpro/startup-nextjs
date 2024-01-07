@@ -15,26 +15,26 @@ const Hero = () => {
                 data-wow-delay=".2s"
               >
                 <h1 className="mb-5 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight">
-                GreenLighthous - Votre univers golfique réinventé avec gestion intégrée et réseau social exclusif
+                Votre univers golfique réinventé avec gestion intégrée et réseau social exclusif
                 </h1>
                 <p className="dark:text-body-color-dark mb-12 text-base !leading-relaxed text-body-color sm:text-lg md:text-xl">
-                  Startup is free Next.js template for startups and SaaS
-                  business websites comes with all the essential pages,
-                  components, and sections you need to launch a complete
-                  business website, built-with Next 13.x and Tailwind CSS.
+                GreenLighthouse se positionne comme le premier outil universel dédié à la gestion de golf,
+                révolutionnant l'expérience des passionnés et des professionnels du domaine. Au cœur de notre plateforme,
+                vous trouverez des fonctionnalités avancées permettant une gestion fluide et complète de vos parcours, compétitions,
+                et membres.
                 </p>
                 <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
                   <Link
-                    href="https://nextjstemplates.com/templates/saas-starter-startup"
+                    href="https://nextjstemplates.com/templates/saas-starter-Green Lighthouse"
                     className="rounded-sm bg-primary px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/80"
                   >
-                    🔥 Get Pro
+                    Demander un devis 
                   </Link>
                   <Link
-                    href="https://github.com/NextJSTemplates/startup-nextjs"
+                    href="https://github.com/NextJSTemplates/Green Lighthouse-nextjs"
                     className="inline-block rounded-sm bg-black px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:bg-black/90 dark:bg-white/10 dark:text-white dark:hover:bg-white/5"
                   >
-                    Star on GitHub
+                    Essayer notre démo
                   </Link>
                 </div>
               </div>
